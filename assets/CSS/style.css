@@ -1,0 +1,541 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+header {
+  border-bottom: 1px solid #e6e6e6;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+header nav ul {
+  display: flex;
+  width: 505px;
+  height: 19px;
+  top: 46px;
+  left: 467px;
+  justify-content: center;
+  align-items: center;
+}
+header nav li {
+  margin-left: 25px;
+}
+header nav li a {
+  color: #000000;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19px;
+  letter-spacing: -0.02em;
+  text-align: left;
+}
+header .logo {
+  display: flex;
+}
+header .logo h2 {
+  color: black;
+  font-family: cursive;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: left;
+  width: 110px;
+}
+header .logo p {
+  margin-left: 9px;
+  margin-top: -5px;
+  font-size: 31px;
+  color: #FF7426;
+}
+header .social ul {
+  display: flex;
+  width: 133.9616546631px;
+  height: 22px;
+  top: 44px;
+  left: 1226px;
+}
+header .social ul li {
+  margin-left: 25px;
+}
+
+main #introduction {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  position: relative;
+}
+main #introduction .like {
+  position: absolute;
+  top: 70px;
+}
+main .left {
+  width: 620px;
+  height: 640px;
+  top: 150px;
+  left: 80px;
+}
+main .right {
+  width: 660px;
+  height: 640px;
+  top: 150px;
+  left: 700px;
+}
+main .hot-recipes {
+  position: absolute;
+  width: 156px;
+  height: 45px;
+  top: 200px;
+  left: 130px;
+  border-radius: 30px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  top: 55px;
+  left: 200px;
+}
+main .hot-recipes img {
+  margin-left: 27px;
+}
+main .text {
+  position: absolute;
+  left: 200px;
+  font-size: 40px;
+  width: 450px;
+  top: 125px;
+}
+main .text p {
+  position: absolute;
+  color: #656d70;
+  font-size: 15px;
+}
+main .ending {
+  display: flex;
+  margin-top: 120px;
+}
+main .ending .view {
+  display: flex;
+  width: 186px;
+  background-color: black;
+  border-radius: 15px;
+  height: 58px;
+  margin-left: 108px;
+  margin-top: 10px;
+}
+main .ending .view p {
+  margin-top: 20px;
+  color: white;
+  margin-left: 20px;
+  font-size: 16px;
+  font-weight: bold;
+}
+main .ending .view i {
+  color: white;
+  margin-left: 125px;
+  font-size: 22px;
+}
+main span {
+  font-size: 16px;
+  font-weight: bold;
+}
+main .john-smith {
+  display: flex;
+}
+main .john-smith img {
+  margin-top: 18px;
+  margin-right: 15px;
+}
+
+.time-eat {
+  display: flex;
+  margin-top: 60px;
+}
+.time-eat .time {
+  width: 156px;
+  height: 45px;
+  top: 200px;
+  left: 130px;
+  border-radius: 30px;
+  background-color: #dbedf1;
+  display: flex;
+  align-items: center;
+  top: 55px;
+  left: 200px;
+}
+.time-eat .time i {
+  font-size: 20px;
+  margin-left: 25px;
+}
+.time-eat .time p {
+  margin-left: 50px;
+}
+.time-eat .eat {
+  width: 156px;
+  height: 45px;
+  top: 200px;
+  left: 130px;
+  margin-left: 25px;
+  border-radius: 30px;
+  background-color: #dbedf1;
+  display: flex;
+  align-items: center;
+  top: 55px;
+  left: 200px;
+}
+.time-eat .eat i {
+  font-size: 20px;
+  margin-left: 25px;
+}
+.time-eat .eat p {
+  margin-left: 50px;
+}
+
+#categories .menu {
+  position: absolute;
+  top: 125vh;
+}
+#categories .menu #vegan {
+  margin: 0;
+}
+#categories .menu ul {
+  display: flex;
+  justify-content: center;
+}
+#categories .menu ul li {
+  margin-left: 125px;
+}
+#categories .menu ul li p {
+  margin-top: 40px;
+}
+#categories .title {
+  display: flex;
+  justify-content: space-between;
+}
+#categories .title .left {
+  margin-left: 120px;
+  margin-top: 120px;
+  font-size: 25px;
+}
+#categories .title .right {
+  position: absolute;
+  top: 115vh;
+  left: 165vh;
+  width: 220px;
+  height: 45px;
+  text-align: center;
+  border-radius: 10px;
+  background-color: #e7fafe;
+}
+#categories .title .right p {
+  margin-top: 14px;
+}
+
+#recipes .recipes-text {
+  position: absolute;
+  top: 170vh;
+}
+#recipes .recipes-text h1 {
+  text-align: center;
+  font-family: Inter;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 58px;
+  letter-spacing: -0.04em;
+  margin-left: 450px;
+  width: 650px;
+  margin-bottom: 25px;
+}
+#recipes .recipes-text p {
+  text-align: center;
+  margin-left: 450px;
+  width: 600px;
+  color: #797979;
+}
+
+.all-card .first {
+  display: flex;
+  justify-content: space-around;
+}
+.all-card .first .beef .min-sna {
+  display: flex;
+}
+.all-card .first .beef .min-sna .minutes {
+  width: 156px;
+  height: 45px;
+  top: 200px;
+  left: 130px;
+  display: flex;
+  align-items: center;
+  top: 55px;
+  left: 200px;
+}
+.all-card .first .beef .min-sna .minutes p {
+  margin-top: 0px;
+  font-size: 13px;
+}
+.all-card .first .beef .min-sna .snack {
+  width: 156px;
+  height: 45px;
+  top: 200px;
+  left: 130px;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  margin-left: -50px;
+  top: 55px;
+  left: 200px;
+}
+.all-card .first .beef .min-sna .snack p {
+  margin-top: 0px;
+  font-size: 13px;
+}
+.all-card .first .beef p {
+  width: 220px;
+  margin-left: 7px;
+  font-size: 19px;
+  font-weight: bold;
+  margin-top: 15px;
+}
+.all-card .salmon .min-sna {
+  display: flex;
+}
+.all-card .salmon .min-sna .minutes {
+  width: 156px;
+  height: 45px;
+  top: 200px;
+  left: 130px;
+  display: flex;
+  align-items: center;
+  top: 55px;
+  left: 200px;
+}
+.all-card .salmon .min-sna .minutes p {
+  margin-top: 0px;
+  font-size: 13px;
+}
+.all-card .salmon .min-sna .fish {
+  width: 156px;
+  height: 45px;
+  top: 200px;
+  left: 130px;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  margin-left: -50px;
+  top: 55px;
+  left: 200px;
+}
+.all-card .salmon .min-sna .fish p {
+  margin-top: 0px;
+  font-size: 13px;
+}
+.all-card .salmon p {
+  width: 220px;
+  margin-left: 7px;
+  font-size: 19px;
+  font-weight: bold;
+  margin-top: 15px;
+}
+.all-card .pancake .min-sna {
+  display: flex;
+}
+.all-card .pancake .min-sna .minutes {
+  width: 156px;
+  height: 45px;
+  top: 200px;
+  left: 130px;
+  display: flex;
+  align-items: center;
+  top: 55px;
+  left: 200px;
+}
+.all-card .pancake .min-sna .minutes p {
+  margin-top: 0px;
+  font-size: 13px;
+}
+.all-card .pancake .min-sna .breakfast {
+  width: 156px;
+  height: 45px;
+  top: 200px;
+  left: 130px;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  margin-left: -50px;
+  top: 55px;
+  left: 200px;
+}
+.all-card .pancake .min-sna .breakfast p {
+  margin-top: 0px;
+  font-size: 13px;
+}
+.all-card .pancake p {
+  width: 222px;
+  margin-left: 7px;
+  font-size: 19px;
+  font-weight: bold;
+  margin-top: 15px;
+}
+.all-card .second {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 40px;
+}
+.all-card .second .salad .min-sna {
+  display: flex;
+}
+.all-card .second .salad .min-sna .minutes {
+  width: 156px;
+  height: 45px;
+  top: 200px;
+  left: 130px;
+  display: flex;
+  align-items: center;
+  top: 55px;
+  left: 200px;
+}
+.all-card .second .salad .min-sna .minutes p {
+  margin-top: 0px;
+  font-size: 13px;
+}
+.all-card .second .salad .min-sna .heal {
+  width: 156px;
+  height: 45px;
+  top: 200px;
+  left: 130px;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  margin-left: -50px;
+  top: 55px;
+  left: 200px;
+}
+.all-card .second .salad .min-sna .heal p {
+  margin-top: 0px;
+  font-size: 13px;
+}
+.all-card .second .salad p {
+  width: 220px;
+  margin-left: 7px;
+  font-size: 19px;
+  font-weight: bold;
+  margin-top: 15px;
+}
+.all-card .meatballs .min-sna {
+  display: flex;
+}
+.all-card .meatballs .min-sna .minutes {
+  width: 156px;
+  height: 45px;
+  top: 200px;
+  left: 130px;
+  display: flex;
+  align-items: center;
+  top: 55px;
+  left: 200px;
+}
+.all-card .meatballs .min-sna .minutes p {
+  margin-top: 0px;
+  font-size: 13px;
+}
+.all-card .meatballs .min-sna .meat {
+  width: 156px;
+  height: 45px;
+  top: 200px;
+  left: 130px;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  margin-left: -50px;
+  top: 55px;
+  left: 200px;
+}
+.all-card .meatballs .min-sna .meat p {
+  margin-top: 0px;
+  font-size: 13px;
+}
+.all-card .meatballs p {
+  width: 220px;
+  margin-left: 7px;
+  font-size: 19px;
+  font-weight: bold;
+  margin-top: 15px;
+}
+.all-card .pasta .min-sna {
+  display: flex;
+}
+.all-card .pasta .min-sna .minutes {
+  width: 156px;
+  height: 45px;
+  top: 200px;
+  left: 130px;
+  display: flex;
+  align-items: center;
+  top: 55px;
+  left: 200px;
+}
+.all-card .pasta .min-sna .minutes p {
+  margin-top: 0px;
+  font-size: 13px;
+}
+.all-card .pasta .min-sna .nood {
+  width: 156px;
+  height: 45px;
+  top: 200px;
+  left: 130px;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  margin-left: -50px;
+  top: 55px;
+  left: 200px;
+}
+.all-card .pasta .min-sna .nood p {
+  margin-top: 0px;
+  font-size: 13px;
+}
+.all-card .pasta p {
+  width: 220px;
+  margin-left: 7px;
+  font-size: 19px;
+  font-weight: bold;
+  margin-top: 15px;
+}
+
+#kitchen {
+  display: flex;
+  margin-top: 100px;
+}
+#kitchen .text-kitchen h1 {
+  margin-left: 70px;
+  margin-top: 195px;
+  width: 431px;
+  font-size: 42px;
+}
+#kitchen .text-kitchen p {
+  margin-left: 70px;
+  width: 380px;
+  margin-top: 20px;
+  font-size: 14px;
+  color: #797979;
+}
+#kitchen .text-kitchen span {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 186px;
+  background-color: black;
+  color: #fff;
+  border-radius: 15px;
+  height: 45px;
+  margin-left: 66px;
+  margin-top: 70px;
+}
+#kitchen .photo-chef {
+  margin-left: 235px;
+}/*# sourceMappingURL=style.css.map */

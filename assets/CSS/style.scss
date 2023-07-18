@@ -1,0 +1,570 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+@mixin center-flex{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+header{
+    border-bottom: 1px solid #e6e6e6;
+    nav{
+        ul{
+            display: flex;
+            width: 505px;
+            height: 19px;
+            top: 46px;
+            left: 467px;
+            justify-content: center;
+            align-items: center;
+            
+        }
+        li{
+            margin-left: 25px;
+            a{
+                color: #000000;
+                font-family: Inter;
+                font-size: 16px;
+                font-weight: 500;
+                line-height: 19px;
+                letter-spacing: -0.02em;
+                text-align: left;
+                
+            }
+        }
+    }
+    @include center-flex;
+    .logo{
+        display: flex;
+        h2{
+            color: black;
+            font-family: cursive;
+            font-size: 24px;
+            font-weight: 400;
+            line-height: 30px;
+            letter-spacing: 0em;
+            text-align: left;
+            width: 110px
+        }
+        p{
+            margin-left: 9px;
+            margin-top: -5px;
+            font-size: 31px;
+            color: #FF7426;
+        }
+    }
+    .social{
+        ul{
+            display: flex;
+            width: 133.96165466308594px;
+            height: 22px;
+            top: 44px;
+            left: 1226px;
+            li{
+               margin-left: 25px;
+            }
+        }
+    }
+}
+main{
+  
+    #introduction{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+        position: relative;
+        .like{
+                position: absolute ;
+                top: 70px ;
+        }
+    }
+
+    .left{
+        width: 620px;
+        height: 640px;  
+        top: 150px;
+        left: 80px;
+    }
+    .right{
+        width: 660px;
+        height: 640px;
+        top: 150px;
+        left: 700px;
+    }
+    .hot-recipes{
+            position: absolute;
+            width: 156px;
+            height: 45px;
+            top: 200px;
+            left: 130px;
+            border-radius: 30px;
+            background-color: white;
+            display: flex;
+            align-items: center;
+            top: 55px;
+            left: 200px;
+            img{
+                margin-left: 27px;
+            }
+    }
+    .text{
+        p{
+            position: absolute;
+            color: #656d70;
+            font-size: 15px;
+        }
+        position: absolute;
+        left: 200px;
+        font-size: 40px;
+        width: 450px;
+        top: 125px;
+    
+    }
+    .ending{
+        display: flex;
+        margin-top: 120px;
+        .view{
+            p{
+                margin-top: 20px;
+                color: white;
+                margin-left: 20px;
+                font-size: 16px;
+                font-weight: bold;
+            }
+            i{
+                color: white;
+                margin-left: 125px;
+                font-size: 22px;
+            }
+            display: flex;
+            width: 186px;
+            background-color: black;
+            border-radius: 15px;
+            height: 58px;
+            margin-left: 108px;
+            margin-top: 10px;
+        }
+       
+        }
+    span{
+        font-size: 16px;
+        font-weight: bold;
+    }
+    .john-smith{
+        display: flex;
+        img{
+            margin-top: 18px;
+            margin-right: 15px;
+        }
+    }
+    }
+    .time-eat{
+            display: flex;
+            margin-top: 60px;
+        .time{
+            i{
+                font-size: 20px;
+                margin-left: 25px;
+            }
+            p{
+                margin-left: 50px;
+            }
+            width: 156px;
+            height: 45px;
+            top: 200px;
+            left: 130px;
+            border-radius: 30px;
+            background-color: #dbedf1;
+            display: flex;
+            align-items: center;
+            top: 55px;
+            left: 200px;
+        }
+        .eat{
+            i{
+                font-size: 20px;
+                margin-left: 25px;
+            }
+            p{
+                margin-left: 50px;
+            }
+            width: 156px;
+            height: 45px;
+            top: 200px;
+            left: 130px;
+            margin-left: 25px;
+            border-radius: 30px;
+            background-color: #dbedf1;
+            display: flex;
+            align-items: center;
+            top: 55px;
+            left: 200px;
+        }
+    }
+#categories{
+    .menu{
+        position: absolute;
+        top: 125vh;
+        #vegan{
+            margin: 0;
+        }
+        ul{
+            display: flex;
+            justify-content: center;
+            li{
+                margin-left: 125px;
+                p{
+                    margin-top: 40px;
+                }
+            }
+        }
+    }
+    .title{
+        display: flex;
+        justify-content: space-between;
+        .left{
+            margin-left: 120px;
+            margin-top: 120px;
+            font-size: 25px;
+        }
+        .right{
+            position: absolute;
+            top: 115vh;
+            left: 165vh;
+            width: 220px;
+            height: 45px;
+            text-align: center;
+            border-radius: 10px;
+            background-color: #e7fafe;
+            p{
+                margin-top: 14px;
+            }
+        }
+    }
+}
+#recipes{
+    .recipes-text{
+        position: absolute;
+        top: 170vh;
+        h1{
+            text-align: center;
+            font-family: Inter;
+            font-size: 48px;
+            font-weight: 600;   
+            line-height: 58px;
+            letter-spacing: -0.04em;
+            margin-left: 450px;
+            width: 650px;
+            margin-bottom: 25px;
+        }
+        p{
+            text-align: center;
+            margin-left: 450px;
+            width: 600px;
+            color: #797979;
+        }
+        }
+    }
+    .all-card{
+        .first{
+            display: flex;
+            justify-content: space-around;
+            .beef{
+                .min-sna{
+                    display: flex;
+                    .minutes{
+                        p{
+                            margin-top: 0px;
+                            font-size: 13px;
+                        }
+                        width: 156px;
+                        height: 45px;
+                        top: 200px;
+                        left: 130px;
+                        display: flex;
+                        align-items: center;
+                        top: 55px;
+                        left: 200px
+                    } 
+                     .snack{
+                        p{
+                            margin-top: 0px;
+                            font-size: 13px;
+                        }
+                        width: 156px;
+                        height: 45px;
+                        top: 200px;
+                        left: 130px;
+                        border-radius: 30px;
+                        display: flex;
+                        align-items: center;
+                        margin-left: -50px;
+                        top: 55px;
+                        left: 200px
+                }
+                }
+                p{
+                     width: 220px;
+                     margin-left: 7px;
+                     font-size: 19px;
+                     font-weight: bold;
+                     margin-top: 15px;
+                     
+}
+                }
+            }
+            .salmon{
+                .min-sna{
+                    display: flex;
+                    .minutes{
+                        p{
+                            margin-top: 0px;
+                            font-size: 13px;
+                        }
+                        width: 156px;
+                        height: 45px;
+                        top: 200px;
+                        left: 130px;
+                        display: flex;
+                        align-items: center;
+                        top: 55px;
+                        left: 200px
+                    } 
+                     .fish{
+                        p{
+                            margin-top: 0px;
+                            font-size: 13px;
+                        }
+                        width: 156px;
+                        height: 45px;
+                        top: 200px;
+                        left: 130px;
+                        border-radius: 30px;
+                        display: flex;
+                        align-items: center;
+                        margin-left: -50px;
+                        top: 55px;
+                        left: 200px
+                }
+                }
+                p{
+                     width: 220px;
+                     margin-left: 7px;
+                     font-size: 19px;
+                     font-weight: bold;
+                     margin-top: 15px;
+            }
+        }
+        .pancake{
+            .min-sna{
+                display: flex;
+                .minutes{
+                    p{
+                        margin-top: 0px;
+                        font-size: 13px;
+                    }
+                    width: 156px;
+                    height: 45px;
+                    top: 200px;
+                    left: 130px;
+                    display: flex;
+                    align-items: center;
+                    top: 55px;
+                    left: 200px
+                } 
+                 .breakfast{
+                    p{
+                        margin-top: 0px;
+                        font-size: 13px;
+                    }
+                    width: 156px;
+                    height: 45px;
+                    top: 200px;
+                    left: 130px;
+                    border-radius: 30px;
+                    display: flex;
+                    align-items: center;
+                    margin-left: -50px;
+                    top: 55px;
+                    left: 200px
+            }
+            }
+            p{
+                 width: 222px;
+                 margin-left: 7px;
+                 font-size: 19px;
+                 font-weight: bold;
+                 margin-top: 15px;
+        }
+    }
+    .second{
+            display: flex;
+            justify-content: space-around;
+            margin-top: 40px;
+        .salad{
+            .min-sna{
+                display: flex;
+                .minutes{
+                    p{
+                        margin-top: 0px;
+                        font-size: 13px;
+                    }
+                    width: 156px;
+                    height: 45px;
+                    top: 200px;
+                    left: 130px;
+                    display: flex;
+                    align-items: center;
+                    top: 55px;
+                    left: 200px
+                } 
+                 .heal{
+                    p{
+                        margin-top: 0px;
+                        font-size: 13px;
+                    }
+                    width: 156px;
+                    height: 45px;
+                    top: 200px;
+                    left: 130px;
+                    border-radius: 30px;
+                    display: flex;
+                    align-items: center;
+                    margin-left: -50px;
+                    top: 55px;
+                    left: 200px
+            }
+            }
+            p{
+                 width: 220px;
+                 margin-left: 7px;
+                 font-size: 19px;
+                 font-weight: bold;
+                 margin-top: 15px;
+        }
+    }
+  }
+  .meatballs{
+    .min-sna{
+        display: flex;
+        .minutes{
+            p{
+                margin-top: 0px;
+                font-size: 13px;
+            }
+            width: 156px;
+            height: 45px;
+            top: 200px;
+            left: 130px;
+            display: flex;
+            align-items: center;
+            top: 55px;
+            left: 200px
+        } 
+         .meat{
+            p{
+                margin-top: 0px;
+                font-size: 13px;
+            }
+            width: 156px;
+            height: 45px;
+            top: 200px;
+            left: 130px;
+            border-radius: 30px;
+            display: flex;
+            align-items: center;
+            margin-left: -50px;
+            top: 55px;
+            left: 200px
+    }
+    }
+    p{
+         width: 220px;
+         margin-left: 7px;
+         font-size: 19px;
+         font-weight: bold;
+         margin-top: 15px;
+  }
+ }
+ .pasta{
+    .min-sna{
+        display: flex;
+        .minutes{
+            p{
+                margin-top: 0px;
+                font-size: 13px;
+            }
+            width: 156px;
+            height: 45px;
+            top: 200px;
+            left: 130px;
+            display: flex;
+            align-items: center;
+            top: 55px;
+            left: 200px
+        } 
+         .nood{
+            p{
+                margin-top: 0px;
+                font-size: 13px;
+            }
+            width: 156px;
+            height: 45px;
+            top: 200px;
+            left: 130px;
+            border-radius: 30px;
+            display: flex;
+            align-items: center;
+            margin-left: -50px;
+            top: 55px;
+            left: 200px
+    }
+    }
+    p{
+         width: 220px;
+         margin-left: 7px;
+         font-size: 19px;
+         font-weight: bold;
+         margin-top: 15px;
+  }
+ }
+}
+#kitchen{
+    display: flex;
+    margin-top: 100px;
+    .text-kitchen{
+        h1{
+            margin-left: 70px;
+            margin-top: 195px;
+            width: 431px;
+            font-size: 42px;
+        }
+        p{
+            margin-left: 70px;
+            width: 380px;
+            margin-top: 20px;
+            font-size: 14px;
+            color: #797979;
+        }
+        span{
+            @include center-flex();
+            width: 186px;
+            background-color: black;
+            color: #fff;
+            border-radius: 15px;
+            height: 45px;
+            margin-left: 66px;
+            margin-top: 70px;
+        }
+
+    }
+    .photo-chef{
+        margin-left: 235px;
+    }
+    
+}
